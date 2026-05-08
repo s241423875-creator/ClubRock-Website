@@ -1,0 +1,118 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(90deg, #081b2e, #0a2a47);
+  color: white;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 80px;
+}
+
+.logo {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+nav a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: #ccc;
+}
+
+nav a:hover {
+  color: white;
+}
+
+.btn {
+  background: #1e90ff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 25px;
+  color: white;
+  cursor: pointer;
+}
+
+.main-content {
+  display: flex;             
+  justify-content: center;   
+  align-items: stretch;      
+  gap: 30px;                
+  padding: 50px 80px;
+}
+
+.experience-box {
+  flex: 1.2;                 
+  background-color: #1e90ff;
+  border-radius: 15px;
+  padding: 30px;
+}
+
+.experience-text p {
+  text-align: justify;
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+
+.achievement-box {
+  flex: 1;                   
+  background-color: #1e90ff;
+  border-radius: 15px;
+  padding: 30px;
+}
+
+.tag {
+  background: #0d2d4a;
+  padding: 8px 15px;
+  display: inline-block;
+  border-radius: 5px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); 
+  gap: 15px;
+}
+
+.card {
+  background: #153b5f;
+  padding: 45px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.card h2 {
+  font-size: 22px;
+  color: #1e90ff;
+  margin: 0;
+}
+
+.card h3 {
+  font-size: 14px;
+  margin: 10px 0 0 0;
+}
+
+.video-section {
+  text-align: center;
+  padding: 50px 80px;
+}
+
+.video-container video {
+  width: 100%;
+  max-width: 800px;
+  border-radius: 15px;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #0a2e57;
+  margin-top: 40px;
+}
