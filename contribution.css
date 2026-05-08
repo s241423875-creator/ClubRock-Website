@@ -14,17 +14,17 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 30px 80px;
+  padding: 25px 85px;
 }
 
 .logo {
   font-weight: bold;
-  font-size: 25px;
+  font-size: 22px;
 }
 
 nav a {
   font-size: 20px;
-  margin: 19px;
+  margin: 0 15px;
   padding: 13px, 10px;
   text-decoration: none;
   color: #ccc;
@@ -51,8 +51,9 @@ nav a:hover {
   background: #187bcd;
 }
 .contribution {
-  padding: 80px 100px;
+  padding: 70px 100px;
   text-align: center;
+
 }
 
 .tag {
