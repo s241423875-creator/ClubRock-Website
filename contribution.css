@@ -14,7 +14,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 25px 85px;
+  padding: 20px 80px;
 }
 
 .logo {
@@ -23,12 +23,9 @@ header {
 }
 
 nav a {
-  font-size: 20px;
   margin: 0 15px;
-  padding: 13px, 10px;
   text-decoration: none;
   color: #ccc;
-  transition: 0.3s;
 }
 
 nav a.active,
